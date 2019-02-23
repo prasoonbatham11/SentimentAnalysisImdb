@@ -1,0 +1,199 @@
+Cleaning Train Reviews...
+Cleaning test reviews...
+Creating Count Vectorizer and fitting cleaned train reviews...
+Training  Gaussian NB  Classifier...
+Gaussian NB Classifier took:  2.205036163330078 s
+Training  Decision Tree  Classifier...
+Decision Tree Classifier took:  44.865558385849 s
+Training  Random Forest  Classifier...
+Random Forest Classifier took:  64.13163042068481 s
+Training  Ada Boost  Classifier...
+Ada Boost Classifier took:  213.26946663856506 s
+Training  K nearest Neighbors  Classifier...
+K nearest Neighbors Classifier took:  9.987926006317139 s
+Create bag of words for test data...
+Predicting sentiments...
+Gaussian NB
+Training Accuracy:  76.18 %
+Testing Accuracy:  68.81 %
+Decision Tree
+Training Accuracy:  91.57 %
+Testing Accuracy:  72.62 %
+Random Forest
+Training Accuracy:  99.29 %
+Testing Accuracy:  84.91 %
+Ada Boost
+Training Accuracy:  83.14 %
+Testing Accuracy:  82.46 %
+
+
+
+no of frequency cummulative >=100
+Cleaning Train Reviews...
+Creating Count Vectorizer and fitting cleaned train reviews...
+1000 1000
+2000 2000
+3000 3000
+4000 4000
+5000 4113
+6000 4113
+7000 4113
+8000 4113
+9000 4113
+10000 4113
+
+
+
+
+
+
+
+Random Forest various inputs
+/home/the_prasoon/anaconda3/bin/python "/home/the_prasoon/PycharmProjects/Sentiment Analysis of Movie Reviews/main1.py"
+Cleaning Train Reviews...
+Cleaning test reviews...
+Creating Count Vectorizer and fitting cleaned train reviews...
+Training Random forest Classifier...
+Classifier took:  55.19163227081299 s
+Create bag of words for test data...
+Predicting sentiments...
+5000 entropy 100 100
+Training Accuracy:  97.4 %
+Testing Accuracy:  84.95 %
+
+
+
+
+Creating Count Vectorizer and fitting cleaned train reviews...
+Training Random forest Classifier...
+Classifier took:  59.30060625076294 s
+Create bag of words for test data...
+Predicting sentiments...
+5000 entropy 40 100
+Training Accuracy:  99.28 %
+Testing Accuracy:  84.89 %
+
+
+
+
+Creating Count Vectorizer and fitting cleaned train reviews...
+Training Random forest Classifier...
+Classifier took:  62.84480404853821 s
+Create bag of words for test data...
+Predicting sentiments...
+5000 entropy 2 100
+Training Accuracy:  100.0 %
+Testing Accuracy:  84.69 %
+
+
+
+
+Creating Count Vectorizer and fitting cleaned train reviews...
+Training Random forest Classifier...
+Classifier took:  276.6872320175171 s
+Create bag of words for test data...
+Predicting sentiments...
+5000 entropy 100 500
+Training Accuracy:  97.77 %
+Testing Accuracy:  85.16 %
+
+
+
+
+Creating Count Vectorizer and fitting cleaned train reviews...
+Training Random forest Classifier...
+Classifier took:  290.79222321510315 s
+Create bag of words for test data...
+Predicting sentiments...
+5000 entropy 40 500
+Training Accuracy:  99.48 %
+Testing Accuracy:  85.45 %
+
+
+
+
+Creating Count Vectorizer and fitting cleaned train reviews...
+Training Random forest Classifier...
+Classifier took:  310.23396611213684 s
+Create bag of words for test data...
+Predicting sentiments...
+5000 entropy 2 500
+Training Accuracy:  100.0 %
+Testing Accuracy:  85.48 %
+
+
+
+
+Creating Count Vectorizer and fitting cleaned train reviews...
+Training Random forest Classifier...
+Classifier took:  552.0834488868713 s
+Create bag of words for test data...
+Predicting sentiments...
+5000 entropy 100 1000
+Training Accuracy:  97.7 %
+Testing Accuracy:  85.26 %
+
+
+
+
+Creating Count Vectorizer and fitting cleaned train reviews...
+Training Random forest Classifier...
+Classifier took:  584.0235991477966 s
+Create bag of words for test data...
+Predicting sentiments...
+5000 entropy 40 1000
+Training Accuracy:  99.48 %
+Testing Accuracy:  85.46 %
+
+
+
+
+Creating Count Vectorizer and fitting cleaned train reviews...
+Training Random forest Classifier...
+Classifier took:  617.8712661266327 s
+Create bag of words for test data...
+Predicting sentiments...
+5000 entropy 2 1000
+Training Accuracy:  100.0 %
+Testing Accuracy:  85.65 %
+
+
+
+
+When using stemming
+
+Predicting sentiments...
+5000 entropy 2 100
+Training Accuracy:  100.0 %
+Testing Accuracy:  84.64 %
+
+
+With Lemmanizing
+
+Creating Count Vectorizer and fitting cleaned train reviews...
+Training Random forest Classifier...
+Classifier took:  78.74890780448914 s
+Create bag of words for test data...
+Predicting sentiments...
+5000 entropy 2 100
+Training Accuracy:  100.0 %
+Testing Accuracy:  84.78 %
+
+
+On main2
+Training Random Forest Classifier...
+Classifier took  42.904287338256836 s
+Predicting sentiments...
+Train Accuracy:  100.0 %
+Test Accuracy:  83.38 %
+
+
+On main2
+hidden layer size = (5,2)
+max_iter = 200
+w/o feature scaling
+Training MLP Classifier...
+Classifier took  10.52540397644043 s
+Predicting sentiments...
+Train Accuracy:  87.7 %
+Test Accuracy:  87.08 %
